@@ -6,7 +6,7 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(br.readLine());
 		
-		int[] numbers = new int[T]; // ¼ıÀÚ Áı¾î³Ö±â
+		int[] numbers = new int[T]; // ìˆ«ì ì§‘ì–´ë„£ê¸°
 		int[] count = {1,2,6,24,120,720,5040,40320};
 		for(int i=0;i<T;i++) {
 			numbers[i] = i+1;
