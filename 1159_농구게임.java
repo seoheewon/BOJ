@@ -10,7 +10,7 @@ public class Main {
 		int N = Integer.parseInt(br.readLine());
 		for(int i=0;i<N;i++) {
 			String name = br.readLine();
-			int n = name.charAt(0)-97; //¼Ò¹®ÀÚ'a'=97
+			int n = name.charAt(0)-97; // ì†Œë¬¸ì 'a'=97
 			alpha[n]++;
 		}
 		for(int i=0;i<26;i++) {
