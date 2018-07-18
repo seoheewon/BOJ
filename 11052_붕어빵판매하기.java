@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
-		int[] P = new int[N+1]; // ºØ¾î»§ÀÇ °³¼öº° °¡°Ý
+		int[] P = new int[N+1]; // ë¶•ì–´ë¹µ ê°œìˆ˜ë³„ ê°€ê²©
 		
 		String str = br.readLine();
 		StringTokenizer st = new StringTokenizer(str," ");
