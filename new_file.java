@@ -1,3 +1,5 @@
+////////////////////////
+
 import java.util.*;
 import java.io.*;
 
@@ -69,7 +71,7 @@ public class O_Next_permutation_10972 {
 		
 		if(index <= 0) System.out.println("-1");
 		else {
-			System.out.println(index+"ÀÎµ¦½º°ª");
+			System.out.println(index+"ì¸ë±ìŠ¤ê°’");
 			int j = T-1;
 			while(j >= index && nums[index-1] < nums[j]) j--;
 			int temp = nums[j];
@@ -84,6 +86,6 @@ public class O_Next_permutation_10972 {
 				System.out.print(" "+nums[i]);
 			}
 		}
-		// ¾Æ ¸¾¿¡ ¾Èµé¾î ´Ù ¸¾¿¡ ¾Èµé¾î!!!!!!!!!!!!
+		// ì•„ ë§˜ì— ì•ˆë“¤ì–´ ë‹¤ ë§˜ì— ì•ˆë“¤ì–´!!!!!!!!!!!!
 	}
 }
